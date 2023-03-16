@@ -1,13 +1,12 @@
 
-import Clock from "./components/Clock";
-import NewClock from "./components/NewClock";
+import ListaContacto from "./components/ListaContacto";
 
- 
 
 function App() {
   return (
     <div className="App">
-  
+      <h1>Lista de Contacto</h1>
+      <ListaContacto/>
     </div>
   );
 }
