@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&family=Ubuntu&display=swap");
+.containers {
+  display: flex;
+}
+.App {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  background-image: url(../../public/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur(5);
+}
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.dv {
+    background: rgb(255,255,255);
+    position: fixed;
+    height: 100vh;
+  
+}
+
+.dv2 {
+  z-index: 2;
+  margin-left: 400px;
+}
+
+.w{
+    width: 70vw;
+    margin-top: 8px;
+}
+
+.h{
+    margin-top: 60vh;
+}
+
+.letra{
+    font-weight: bold;
+}
