@@ -1,11 +1,10 @@
+import CambioColor from "./components/CambioColor";
 
-import ListaContacto from "./components/ListaContacto";
-import "./styles/estilo.css"
 
 function App() {
   return (
     <div className="App">
-      <ListaContacto/>
+      <CambioColor/>
     </div>
   );
 }
