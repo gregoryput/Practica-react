@@ -1,10 +1,11 @@
-import CambioColor from "./components/CambioColor";
+
+import Formulario from "./components/Formulario";
 
 
 function App() {
   return (
     <div className="App">
-      <CambioColor/>
+      <Formulario/>
     </div>
   );
 }
